@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav div {
+  display: flex;
+  margin-bottom: -50px;
+  margin-left: 20px;
+}
+
+nav h2 {
+  height: 5px;
+  margin-top: 20px;
+  font-family: 'Galada', sans-serif;
+  color: white;
+  display: flex;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+h2, h3, h4 {
+  color: #3fb9d1;
+}
+
+#view {
+  background-color: white;
+  color: #3fb9d1;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #02bedb;
+  border-color: #02bedb;
+  color: white;
+
+}
+
+.smallbtn {
+  border: none;
+  width: 100px;
+  background-color: #02bedb;
+  font-size: 15px;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.btn:hover, .reset:hover, .smallbtn:hover {
+  font-weight: bold;
+}
+
+.btn:focus, .reset:focus, .smallbtn:focus {
+  font-weight: normal;
+}
+
+
+header {
+  display: inline;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lexend Tera', sans-serif;
+}
+
+h2, h3, h4 {
+  color: #3fb9d1;
+}
+
+.anchor:hover{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover .anchor {
+  text-decoration: none;
+  font-weight: 400;
+  color: white;
+}
+
+.anchor{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  
+}
+
+footer {
+  opacity: 0.7;
+  padding: 20px;
+  color: white;
+  background-color: #3fb9d1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.jumbotron img {
+  height: 200px;
+  width: 250px;
+  margin-bottom: -30px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.jumbotron {
+  opacity: 0.7;
+  font-size: 20px;
+  padding: 60px;
+  background-color: #3fb9d1;
+  text-align: center;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.bgim {
+  background-image: url(../image/bg.png);
+}
+
+nav {
+  display: flex;
+  /* properti pendukung */
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: right;
+  background-color: #3fb9d1;
+  padding: 5px;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+
+/* index.php */
+
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+#content {
+  float: right;
+  width: 65%;
+}
+
+aside {
+  float: left;
+  width: 35%;
+  padding-right: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container-empat {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.container-lima {
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.card {
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  background-color: rgb(247, 247, 247);
+  overflow: hidden;
+  margin: 10px;
+  flex: 1;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .content {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* Akhir index.php */
+
+/* booking.php */
+
+.container-satu {
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  overflow: hidden;
+}
+
+.kolom-utama {
+  max-width: 600px;
+  flex: 3;
+}
+
+.sidebar-satu {
+  float: left;
+  margin-right: 10px;
+  flex: 2;
+}
+
+.sidebar-dua {
+  float: right;
+  margin-left: 10px;
+  flex: 1;
+}
+
+/* Akhir booking.php */
+

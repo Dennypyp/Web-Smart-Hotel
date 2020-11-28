@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav div {
+  display: flex;
+  margin-bottom: -50px;
+  margin-left: 20px;
+}
+
+nav h2 {
+  height: 5px;
+  margin-top: 20px;
+  font-family: 'Galada', sans-serif;
+  color: white;
+  display: flex;
+}
+
+#view {
+  background-color: white;
+  color: #3fb9d1;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+.btn {
+  background-color: #02bedb;
+  color: white;
+  border-color: #02bedb;
+  width: 335px;
+}
+
+.btn:hover, .reset:hover, .smallbtn:hover {
+  font-weight: bold;
+}
+
+.btn:focus, .reset:focus, .smallbtn:focus {
+  font-weight: normal;
+}
+
+header {
+  display: inline;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lexend Tera', sans-serif;
+}
+
+.anchor:hover{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover .anchor {
+  text-decoration: none;
+  font-weight: 400;
+  color: white;
+}
+
+.anchor{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  
+}
+
+footer {
+  opacity: 0.7;
+  padding: 20px;
+  color: white;
+  background-color: #3fb9d1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.jumbotron img {
+  height: 200px;
+  width: 250px;
+  margin-bottom: -30px;
+}
+
+
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.jumbotron {
+  opacity: 0.7;
+  font-size: 20px;
+  padding: 60px;
+  background-color: #3fb9d1;
+  text-align: center;
+  color: white;
+}
+
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.bgim {
+  background-image: url(../image/bg.png);
+}
+
+nav {
+  display: flex;
+  /* properti pendukung */
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: right;
+  background-color: #3fb9d1;
+  padding: 5px;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+
+/* index.php */
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.card {
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Akhir index.php */
+
